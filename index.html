@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RHINO Production — Production & Réalisation Vidéo</title>
+  <meta name="description" content="RHINO Production, société de production et réalisation vidéo à Cagnes-sur-Mer. Interviews, reportages, films corporate et contenus créatifs.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════
+       HEADER
+       ════════════════════════════════════════ -->
+  <header id="hdr">
+    <div class="header-bar">
+      <a href="#" class="logo-link">
+        <img src="img/logo-rhino.jpg" alt="RHINO Production" width="132" height="44">
+        <div>
+          <span class="logo-text">Rhino</span>
+          <span class="logo-sub">Production</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="main-nav">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#portfolio">Réalisations</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#testimonials">Avis</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="header-cta">Contact</a>
+
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mob-menu" id="mobMenu" role="dialog" aria-label="Menu mobile">
+    <button class="mob-close" id="mobClose" aria-label="Fermer le menu">&times;</button>
+    <a href="#services">Services</a>
+    <a href="#about">À propos</a>
+    <a href="#portfolio">Réalisations</a>
+    <a href="#process">Process</a>
+    <a href="#testimonials">Avis</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+
+  <!-- ════════════════════════════════════════
+       HERO
+       ════════════════════════════════════════ -->
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-cin"></div>
+    <div class="hero-flare" aria-hidden="true"></div>
+    <div class="hero-vignette" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <div class="hero-text-col">
+        <div class="hero-badge">
+          <span class="hero-badge-dot" aria-hidden="true"></span>
+          <span>Production & Réalisation Vidéo</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="l">VOTRE VISION</span>
+          <span class="l">NOTRE CAMÉRA</span>
+          <span class="l">VOTRE <em>IMPACT</em></span>
+        </h1>
+
+        <p class="hero-p">
+          Basée à Cagnes-sur-Mer, RHINO Production transforme vos idées en contenus vidéo 
+          percutants. Interviews, reportages, films corporate — nous racontons votre histoire.
+        </p>
+
+        <div class="hero-btns">
+          <a href="#contact" class="btn-r">
+            Démarrer un projet
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#portfolio" class="btn-g">Nos réalisations</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-logo-frame">
+          <span class="corner tl"></span>
+          <span class="corner tr"></span>
+          <span class="corner bl"></span>
+          <span class="corner br"></span>
+          <img src="img/logo-rhino.jpg" alt="" width="180" height="180">
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-bar"></div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       SERVICES
+       ════════════════════════════════════════ -->
+  <section id="services">
+    <div class="sec-head rv">
+      <p class="sec-tag">Ce que nous faisons</p>
+      <h2 class="sec-title">NOS EXPERTISES</h2>
+    </div>
+
+    <div class="srv-grid">
+      <!-- Interview -->
+      <article class="srv rv">
+        <div class="srv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/>
+          </svg>
+        </div>
+        <h3>INTERVIEW & PORTRAIT</h3>
+        <p>Notre spécialité. Capturer l'authenticité de vos témoignages avec une mise en scène soignée, un éclairage maîtrisé et un montage rythmé.</p>
+      </article>
+
+      <!-- Film Corporate -->
+      <article class="srv rv">
+        <div class="srv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <path d="M8 21h8M12 17v4"/>
+          </svg>
+        </div>
+        <h3>FILM CORPORATE</h3>
+        <p>Présentez votre entreprise, vos valeurs et votre savoir-faire à travers un film institutionnel sur-mesure qui valorise votre image.</p>
+      </article>
+
+      <!-- Reportage -->
+      <article class="srv rv">
+        <div class="srv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M14.5 4h-5L7 7H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2h-3l-2.5-3z"/>
+            <circle cx="12" cy="13" r="3"/>
+          </svg>
+        </div>
+        <h3>REPORTAGE & ÉVÉNEMENT</h3>
+        <p>Couverture complète de vos événements professionnels, conférences, inaugurations avec une équipe réactive et discrète.</p>
+      </article>
+
+      <!-- Contenu Digital -->
+      <article class="srv rv">
+        <div class="srv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <polygon points="23 7 16 12 23 17 23 7"/>
+            <rect x="1" y="5" width="15" height="14" rx="2"/>
+          </svg>
+        </div>
+        <h3>CONTENU DIGITAL</h3>
+        <p>Contenus vidéo optimisés pour vos réseaux sociaux, YouTube, et plateformes digitales. Courts formats percutants.</p>
+      </article>
+
+      <!-- Post-Production -->
+      <article class="srv rv">
+        <div class="srv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/>
+          </svg>
+        </div>
+        <h3>POST-PRODUCTION</h3>
+        <p>Montage, étalonnage, sound design et habillage graphique. Nous sublîmons vos rushes pour un rendu cinématique.</p>
+      </article>
+
+      <!-- Drone -->
+      <article class="srv rv">
+        <div class="srv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+            <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/>
+          </svg>
+        </div>
+        <h3>DRONE & VUE AÉRIENNE</h3>
+        <p>Prises de vue spectaculaires par drone pour sublimer vos projets immobiliers, événements ou films promotionnels.</p>
+      </article>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       ABOUT
+       ════════════════════════════════════════ -->
+  <section id="about">
+    <div class="about-lay">
+      <div class="about-vis rv">
+        <div class="about-box">
+          <img src="img/logo-rhino.jpg" alt="RHINO Production" width="300" height="200">
+          <div class="about-num">
+            <div class="big">348+</div>
+            <div class="sm">Productions réalisées</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-txt rv">
+        <p class="sec-tag">Qui sommes-nous</p>
+        <h2 class="sec-title">L'IMAGE AU SERVICE DE VOTRE MESSAGE</h2>
+
+        <p>
+          <strong>RHINO Production</strong> est une société de production et réalisation vidéo 
+          basée à Cagnes-sur-Mer, sur la Côte d'Azur. Nous accompagnons entreprises, institutions 
+          et créateurs dans la conception de contenus audiovisuels à fort impact.
+        </p>
+        <p>
+          Notre signature ? Une approche <strong>humaine et cinématique</strong>, particulièrement 
+          dans l'art de l'interview. Nous croyons que chaque témoignage mérite une mise en lumière 
+          professionnelle.
+        </p>
+
+        <div class="about-row">
+          <div>
+            <div class="n">1.1K+</div>
+            <div class="lb">Abonnés</div>
+          </div>
+          <div>
+            <div class="n">100%</div>
+            <div class="lb">Sur-mesure</div>
+          </div>
+          <div>
+            <div class="n">06</div>
+            <div class="lb">Côte d'Azur</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       PORTFOLIO
+       ════════════════════════════════════════ -->
+  <section id="portfolio">
+    <div class="sec-head rv">
+      <p class="sec-tag">Nos réalisations</p>
+      <h2 class="sec-title">PROJETS RÉCENTS</h2>
+    </div>
+
+    <div class="port-grid">
+      <article class="port rv">
+        <div class="port-bg">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+        </div>
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-info">
+          <p class="t">Interview</p>
+          <h4>Portrait Dirigeant — Groupe Tech Azur</h4>
+        </div>
+      </article>
+
+      <article class="port rv">
+        <div class="port-bg">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+        </div>
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-info">
+          <p class="t">Corporate</p>
+          <h4>Film Institutionnel — Nice Côte d'Azur</h4>
+        </div>
+      </article>
+
+      <article class="port rv">
+        <div class="port-bg">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+        </div>
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-info">
+          <p class="t">Événement</p>
+          <h4>Conférence — Palais des Festivals</h4>
+        </div>
+      </article>
+
+      <article class="port rv">
+        <div class="port-bg">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+        </div>
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-info">
+          <p class="t">Reportage</p>
+          <h4>Documentaire — Artisans de Provence</h4>
+        </div>
+      </article>
+
+      <article class="port rv">
+        <div class="port-bg">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+        </div>
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-info">
+          <p class="t">Digital</p>
+          <h4>Campagne Sociale — Startup Riviera</h4>
+        </div>
+      </article>
+
+      <article class="port rv">
+        <div class="port-bg">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+        </div>
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-info">
+          <p class="t">Interview</p>
+          <h4>Témoignages — Clinique Saint-George</h4>
+        </div>
+      </article>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       PROCESS
+       ════════════════════════════════════════ -->
+  <section id="process">
+    <div class="sec-head rv">
+      <p class="sec-tag">Comment nous travaillons</p>
+      <h2 class="sec-title">NOTRE PROCESS</h2>
+    </div>
+
+    <div class="proc-row">
+      <div class="proc rv">
+        <div class="proc-n">01</div>
+        <h4>BRIEF & ÉCOUTE</h4>
+        <p>Analyse de vos besoins, audience et objectifs pour définir la direction créative.</p>
+      </div>
+      <div class="proc rv">
+        <div class="proc-n">02</div>
+        <h4>PRÉ-PRODUCTION</h4>
+        <p>Scénarisation, repérages, planning technique — chaque détail anticipé.</p>
+      </div>
+      <div class="proc rv">
+        <div class="proc-n">03</div>
+        <h4>TOURNAGE</h4>
+        <p>Matériel pro déployé pour capturer chaque moment avec précision.</p>
+      </div>
+      <div class="proc rv">
+        <div class="proc-n">04</div>
+        <h4>POST-PRODUCTION</h4>
+        <p>Montage, étalonnage, sound design pour un résultat impeccable.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       TESTIMONIALS
+       ════════════════════════════════════════ -->
+  <section id="testimonials">
+    <div class="sec-head rv">
+      <p class="sec-tag">Ils nous font confiance</p>
+      <h2 class="sec-title">TÉMOIGNAGES</h2>
+    </div>
+
+    <div class="testi-grid">
+      <article class="testi rv">
+        <blockquote>
+          RHINO Production a parfaitement compris notre vision. Le film d'interview de notre 
+          directeur a été un véritable succès auprès de nos partenaires.
+        </blockquote>
+        <div class="testi-who">
+          <div class="testi-av" aria-hidden="true">ML</div>
+          <div>
+            <p class="nm">Marie Laurent</p>
+            <p class="rl">Directrice Communication — Groupe Azuréen</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="testi rv">
+        <blockquote>
+          Une équipe réactive, à l'écoute et d'une grande qualité technique. La couverture 
+          de notre événement annuel était impeccable.
+        </blockquote>
+        <div class="testi-who">
+          <div class="testi-av" aria-hidden="true">PD</div>
+          <div>
+            <p class="nm">Philippe Durand</p>
+            <p class="rl">CEO — EventPro Méditerranée</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="testi rv">
+        <blockquote>
+          Le reportage réalisé pour notre association a touché des milliers de personnes. 
+          RHINO a su capturer l'essence de notre mission.
+        </blockquote>
+        <div class="testi-who">
+          <div class="testi-av" aria-hidden="true">SC</div>
+          <div>
+            <p class="nm">Sophie Chen</p>
+            <p class="rl">Présidente — Association Côte d'Espoir</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       CONTACT
+       ════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="contact-lay">
+      <div class="contact-info rv">
+        <p class="sec-tag">Parlons de votre projet</p>
+        <h2 class="sec-title">CONTACTEZ-NOUS</h2>
+
+        <p>
+          Vous avez un projet vidéo en tête ? Contactez-nous pour en discuter. 
+          Nous vous proposerons une solution adaptée à vos besoins et votre budget.
+        </p>
+
+        <address>
+          <div class="c-det">
+            <div class="c-det-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <p class="lbl">Adresse</p>
+              <p class="val">ZAC des Travails, 06800 Cagnes-sur-Mer</p>
+            </div>
+          </div>
+
+          <div class="c-det">
+            <div class="c-det-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <p class="lbl">Email</p>
+              <p class="val"><a href="mailto:contact.rhinoprod@gmail.com">contact.rhinoprod@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="c-det">
+            <div class="c-det-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                <path d="M2 12h20"/>
+                <path d="M12 2c2.5 2.5 4 6 4 10s-1.5 7.5-4 10c-2.5-2.5-4-6-4-10s1.5-7.5 4-10z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="lbl">Site web</p>
+              <p class="val"><a href="https://rhinoproduction.com" target="_blank" rel="noopener">rhinoproduction.com</a></p>
+            </div>
+          </div>
+        </address>
+
+        <div class="socials">
+          <a href="https://www.facebook.com/RhinoProduction" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48" fill="#0f0d0b"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 110-4 2 2 0 010 4z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="c-form-wrap rv">
+        <form class="c-form" id="cForm" novalidate>
+          <div class="f-row">
+            <div class="f-grp">
+              <label for="name">Nom complet</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom" autocomplete="name">
+            </div>
+            <div class="f-grp">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="votre@email.com" autocomplete="email">
+            </div>
+          </div>
+
+          <div class="f-row">
+            <div class="f-grp">
+              <label for="company">Entreprise</label>
+              <input type="text" id="company" name="company" placeholder="Votre société" autocomplete="organization">
+            </div>
+            <div class="f-grp">
+              <label for="service">Service souhaité</label>
+              <select id="service" name="service">
+                <option value="">Sélectionnez...</option>
+                <option value="interview">Interview & Portrait</option>
+                <option value="corporate">Film Corporate</option>
+                <option value="reportage">Reportage & Événement</option>
+                <option value="digital">Contenu Digital</option>
+                <option value="postprod">Post-Production</option>
+                <option value="drone">Drone & Vue Aérienne</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="f-grp">
+            <label for="msg">Votre message</label>
+            <textarea id="msg" name="message" required placeholder="Décrivez votre projet..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-send">
+            Envoyer
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+       ════════════════════════════════════════ -->
+  <footer>
+    <div class="ft-top">
+      <div class="ft-brand">
+        <a href="#" class="logo-link">
+          <img src="img/logo-rhino.jpg" alt="RHINO Production" width="132" height="44">
+          <div>
+            <span class="logo-text">Rhino</span>
+            <span class="logo-sub">Production</span>
+          </div>
+        </a>
+        <p>
+          Société de production et réalisation vidéo sur la Côte d'Azur. 
+          Nous transformons vos idées en contenus visuels percutants.
+        </p>
+      </div>
+
+      <div class="ft-col">
+        <h5>NAVIGATION</h5>
+        <a href="#services">Services</a>
+        <a href="#about">À propos</a>
+        <a href="#portfolio">Réalisations</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="ft-col">
+        <h5>SERVICES</h5>
+        <a href="#services">Interview</a>
+        <a href="#services">Film Corporate</a>
+        <a href="#services">Reportage</a>
+        <a href="#services">Post-Production</a>
+      </div>
+    </div>
+
+    <div class="ft-bottom">
+      <span>&copy; <span id="currentYear">2026</span> RHINO Production. Tous droits réservés.</span>
+      <span>Réalisé par <a href="#">Kinstack Web Development</a></span>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
