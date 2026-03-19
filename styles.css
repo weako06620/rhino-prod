@@ -499,6 +499,12 @@ section { padding: 6.5rem 4rem; position: relative; }
   gap: 1rem; max-width: 1300px; margin: 0 auto;
 }
 
+a.port {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .port {
   position: relative; aspect-ratio: 16/10;
   overflow: hidden; cursor: pointer;
