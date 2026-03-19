@@ -989,7 +989,11 @@ footer {
   /* Portfolio */
   .port-grid { grid-template-columns: 1fr; gap: 0.8rem; }
   .port { aspect-ratio: 16/9; }
+  .port::before { opacity: 1; } /* Always show gradient overlay */
+  .port-play { opacity: 1; } /* Always show play button */
+  .port-info { opacity: 1; transform: translateY(0); } /* Always show info */
   .port-info h4 { font-size: 1.05rem; }
+  .port-info .port-desc { font-size: 0.75rem; }
 
   /* Gear */
   .gear-list span { padding: 0.35rem 0.8rem; font-size: 0.65rem; }
